@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\teste_conexao\\rhpromover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|solutionrelative:teste_conexao\\rhpromover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3C81637-9318-4F34-88D1-1134C9C4C7AA}|DAL\\DAL.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\dal\\promocaodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3C81637-9318-4F34-88D1-1134C9C4C7AA}|DAL\\DAL.csproj|solutionrelative:dal\\promocaodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\teste_conexao\\fzplantarselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|solutionrelative:teste_conexao\\fzplantarselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\teste_conexao\\fzplantar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|solutionrelative:teste_conexao\\fzplantar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\teste_conexao\\fzplantioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|solutionrelative:teste_conexao\\fzplantioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\teste_conexao\\fzplantioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|solutionrelative:teste_conexao\\fzplantioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|c:\\users\\fcngu\\git pim\\conexao_bd\\teste_conexao\\fzplantar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E25F9F9-8D46-4951-881D-5159657F1727}|Teste_Conexao\\Teste_Conexao.csproj|solutionrelative:teste_conexao\\fzplantar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FzPlantar.cs",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantar.cs",
+              "RelativeDocumentMoniker": "Teste_Conexao\\FzPlantar.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantar.cs",
+              "RelativeToolTip": "Teste_Conexao\\FzPlantar.cs",
+              "ViewState": "AgIAAIcAAACAaGZmZmYswJcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:01:46.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FzPlantar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantar.cs",
+              "RelativeDocumentMoniker": "Teste_Conexao\\FzPlantar.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantar.cs [Design]",
+              "RelativeToolTip": "Teste_Conexao\\FzPlantar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:01:37.298Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FzPlantioForm.cs",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantioForm.cs",
+              "RelativeDocumentMoniker": "Teste_Conexao\\FzPlantioForm.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantioForm.cs",
+              "RelativeToolTip": "Teste_Conexao\\FzPlantioForm.cs",
+              "ViewState": "AgIAAFoAAABgZmZmZmYrwG8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T22:31:56.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromocaoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\DAL\\PromocaoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\PromocaoDAL.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\DAL\\PromocaoDAL.cs",
+              "RelativeToolTip": "DAL\\PromocaoDAL.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAvwFsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T22:31:56.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RhPromover.cs",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\RhPromover.cs",
+              "RelativeDocumentMoniker": "Teste_Conexao\\RhPromover.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\RhPromover.cs",
+              "RelativeToolTip": "Teste_Conexao\\RhPromover.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAA3wL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T22:31:56.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FzPlantarSelect.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantarSelect.cs",
+              "RelativeDocumentMoniker": "Teste_Conexao\\FzPlantarSelect.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantarSelect.cs [Design]",
+              "RelativeToolTip": "Teste_Conexao\\FzPlantarSelect.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:20:06.66Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FzPlantioForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantioForm.cs",
+              "RelativeDocumentMoniker": "Teste_Conexao\\FzPlantioForm.cs",
+              "ToolTip": "C:\\Users\\fcngu\\git pim\\Conexao_BD\\Teste_Conexao\\FzPlantioForm.cs [Design]",
+              "RelativeToolTip": "Teste_Conexao\\FzPlantioForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:12:45.885Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

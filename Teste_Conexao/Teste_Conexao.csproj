@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E25F9F9-8D46-4951-881D-5159657F1727}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teste_Conexao</RootNamespace>
+    <AssemblyName>Teste_Conexao</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FuncionarioAtualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncionarioAtualizar.Designer.cs">
+      <DependentUpon>FuncionarioAtualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzAlterarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzAlterarProduto.Designer.cs">
+      <DependentUpon>FzAlterarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzAlterarSelecao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzAlterarSelecao.Designer.cs">
+      <DependentUpon>FzAlterarSelecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzCadastrarProdutos.Designer.cs">
+      <DependentUpon>FzCadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzInicial.Designer.cs">
+      <DependentUpon>FzInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzPlantar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzPlantar.Designer.cs">
+      <DependentUpon>FzPlantar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzProdutos.Designer.cs">
+      <DependentUpon>FzProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrFuncionarioInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrFuncionarioInfo.Designer.cs">
+      <DependentUpon>GrFuncionarioInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrFuncionarioSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrFuncionarioSelect.Designer.cs">
+      <DependentUpon>GrFuncionarioSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrInicial.Designer.cs">
+      <DependentUpon>GrInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrPromover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrPromover.Designer.cs">
+      <DependentUpon>GrPromover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzPlantarSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzPlantarSelect.Designer.cs">
+      <DependentUpon>FzPlantarSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzPlantioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzPlantioForm.Designer.cs">
+      <DependentUpon>FzPlantioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPrimeiroAcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPrimeiroAcesso.Designer.cs">
+      <DependentUpon>LoginPrimeiroAcesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RhCadastrarFuncEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RhCadastrarFuncEnd.Designer.cs">
+      <DependentUpon>RhCadastrarFuncEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RhCadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RhCadastroFuncionario.Designer.cs">
+      <DependentUpon>RhCadastroFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RhFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RhFuncionarios.Designer.cs">
+      <DependentUpon>RhFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RhFuncionariosInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RhFuncionariosInfo.Designer.cs">
+      <DependentUpon>RhFuncionariosInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RhInitial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RhInitial.Designer.cs">
+      <DependentUpon>RhInitial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RhPromover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RhPromover.Designer.cs">
+      <DependentUpon>RhPromover.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FuncionarioAtualizar.resx">
+      <DependentUpon>FuncionarioAtualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzAlterarProduto.resx">
+      <DependentUpon>FzAlterarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzAlterarSelecao.resx">
+      <DependentUpon>FzAlterarSelecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzCadastrarProdutos.resx">
+      <DependentUpon>FzCadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzInicial.resx">
+      <DependentUpon>FzInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzPlantar.resx">
+      <DependentUpon>FzPlantar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzProdutos.resx">
+      <DependentUpon>FzProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrFuncionarioInfo.resx">
+      <DependentUpon>GrFuncionarioInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrFuncionarioSelect.resx">
+      <DependentUpon>GrFuncionarioSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrInicial.resx">
+      <DependentUpon>GrInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrPromover.resx">
+      <DependentUpon>GrPromover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzPlantarSelect.resx">
+      <DependentUpon>FzPlantarSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzPlantioForm.resx">
+      <DependentUpon>FzPlantioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPrimeiroAcesso.resx">
+      <DependentUpon>LoginPrimeiroAcesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RhCadastrarFuncEnd.resx">
+      <DependentUpon>RhCadastrarFuncEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RhCadastroFuncionario.resx">
+      <DependentUpon>RhCadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RhFuncionarios.resx">
+      <DependentUpon>RhFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RhFuncionariosInfo.resx">
+      <DependentUpon>RhFuncionariosInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RhInitial.resx">
+      <DependentUpon>RhInitial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RhPromover.resx">
+      <DependentUpon>RhPromover.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{4190e780-95df-4250-bbc5-be4ff195c113}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{e3c81637-9318-4f34-88d1-1134c9c4c7aa}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{c56e6f22-8cdf-4a56-a9c4-1c4b87c9dbda}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brand2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wishlist1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner_left.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cliente.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Centraljpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fancybox_sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-21 204048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promover.png" />
+    <None Include="Resources\pngtree-a-healthy-green-lettuce-png-image_5508896.jpg" />
+    <None Include="Resources\cenoura.png" />
+    <None Include="Resources\file %287%29.png" />
+    <None Include="Resources\folha verde.png" />
+    <None Include="Resources\frutas.png" />
+    <None Include="Resources\adicionar.png" />
+    <None Include="Resources\folha.png" />
+    <Content Include="Resources\funcionarios icone.jpg" />
+    <None Include="Resources\funcionarios icone1.jpg" />
+    <None Include="Resources\icone func.png" />
+    <None Include="Resources\icone add.png" />
+    <None Include="Resources\icone promover.png" />
+    <None Include="Resources\macaa.png" />
+    <None Include="Resources\lapis.png" />
+    <Content Include="Resources\perfil.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
